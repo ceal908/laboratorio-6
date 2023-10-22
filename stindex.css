@@ -1,0 +1,24 @@
+/* color al pasar el mouse por encima */
+a:hover {
+    color: rgb(169, 172, 180);
+}
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+/* Tamaño de fuente li */
+.navbar-nav .nav-item .nav-link {
+    font-size: 20px; 
+}
+
+/* Estilos para pantallas pequeñas (máximo 768px de ancho) */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        display: block;
+    }
+}
+
+
+    
